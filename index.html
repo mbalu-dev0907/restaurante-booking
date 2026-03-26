@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurante MBalu</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <h1>Restaurante MBalu</h1>
+</header>
+
+<section class="hero">
+  <h2>Reserve a sua Mesa</h2>
+  <p>Experiência Gastronómica Inesquecível</p>
+</section>
+
+<section class="booking">
+  <h2>Fazer Reserva</h2>
+
+  <form id="formReserva">
+    <input type="text" id="nome" placeholder="Seu nome" required>
+
+    <input type="number" id="pessoas" placeholder="Número de pessoas" required>
+
+    <label>Data:</label>
+    <input type="date" id="data" required>
+
+    <label>Hora:</label>
+    <input type="time" id="hora" required>
+
+    <button type="submit">Reservar</button>
+  </form>
+
+  <h3 id="mensagem"></h3>
+</section>
+
+<section class="lista">
+  <h2>Reservas</h2>
+  <ul id="listaReservas"></ul>
+</section>
+
+<!-- BOTÃO WHATSAPP -->
+<a href="#" id="whatsappBtn" class="whatsapp">WhatsApp</a>
+
+<script src="js/script.js"></script>
+</body>
+</html>
